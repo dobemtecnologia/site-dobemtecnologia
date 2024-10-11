@@ -6,7 +6,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "npm install --production=true && npm run build && npm ci",
+    "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint"
