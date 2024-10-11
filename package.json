@@ -6,8 +6,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng run app:build:production && npm run build:digitalocean",
-    "build:digitalocean": "npm install --production=false && npm run build && npm ci",
+    "build": "npm install --production=true && npm run build && npm ci",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint"
