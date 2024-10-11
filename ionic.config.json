@@ -1,0 +1,7 @@
+{
+  "name": "site-dobemtecnologia",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
